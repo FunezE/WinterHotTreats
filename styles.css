@@ -1,0 +1,40 @@
+.main-title {
+  color: dimgray;
+  padding: 3rem;
+  text-align: center;
+  font-size: xx-large;
+}
+
+.grid-container {
+  margin-left: 5rem;
+  margin-right: 5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+}
+
+.card {
+  border-width: 2px;
+  border-style: solid;
+  border-color: orange;
+  border-radius: 0.5rem;
+  text-align: center;
+  position: relative;
+  top: 0;
+  transition: top, box-shadow, 0.3s ease;
+}
+
+.card:hover {
+  top: -10px;
+  box-shadow: 5px 5px 10px rgba(36, 36, 36, 0.5);
+}
+
+.card-title {
+  background-color: orange;
+  font-weight: bold;
+  padding: 0.5rem;
+}
+
+.card-body {
+  padding: 2rem;
+}
