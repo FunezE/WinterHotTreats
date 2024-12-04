@@ -1,7 +1,18 @@
 .main-title {
-  color: dimgray;
-  padding: 3rem;
+  color: white;
   text-align: center;
+  font-size: xxx-large;
+  background-image: url("images/banner.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 1rem;
+  border-radius: 0.5em;
+}
+h1 {
+  margin: 0;
+  font-family: "Christmas   Classica", sans-serif;
+}
   font-size: xx-large;
 }
 
