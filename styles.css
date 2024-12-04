@@ -16,7 +16,7 @@
 .card {
   border-width: 2px;
   border-style: solid;
-  border-color: orange;
+  border-color: #0d4b25;
   border-radius: 0.5rem;
   text-align: center;
   position: relative;
@@ -30,11 +30,16 @@
 }
 
 .card-title {
-  background-color: orange;
+  background-color: #0d4b25;
   font-weight: bold;
   padding: 0.5rem;
+  color: white;
+}
+.card-image {
+  width: 128px;
 }
 
 .card-body {
-  padding: 2rem;
+  padding: 1rem;
+  padding-top: 0.5rem;
 }
