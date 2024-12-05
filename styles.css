@@ -22,9 +22,9 @@ h1 {
 
 .secondary-title {
   font-size: xx-large;
-  margin-top: 3rem;
-  /* text-align: center; */
-  /* color: gray; */
+  margin-top: 1rem;
+  text-align: center;
+  color: #386641;
 }
 .welcome-text {
   font-size: large;
@@ -66,4 +66,19 @@ h1 {
   padding: 1rem;
   padding-top: 0.5rem;
   font-weight: bold;
+}
+
+ul.breadcrumb {
+  list-style: none;
+}
+
+ul.breadcrumb li {
+  display: inline;
+  font-size: 1.25em;
+}
+
+ul.breadcrumb li + li:before {
+  padding: 8px;
+  color: black;
+  content: "/\00a0";
 }
