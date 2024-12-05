@@ -93,3 +93,46 @@ ul.breadcrumb li + li:before {
   color: black;
   content: "/\00a0";
 }
+
+.recipe {
+  margin-bottom: 5rem;
+  display: flex;
+  font-size: x-large;
+}
+
+.recipe-title {
+  font-size: xx-large;
+  margin-top: 3rem;
+  text-align: center;
+  color: #386641;
+}
+
+.recipe-image {
+  width: 30vw;
+  height: auto;
+  object-fit: cover;
+  border-radius: 0.5em;
+}
+
+.recipe-content {
+  padding-left: 2rem;
+}
+.recipe-content > ul {
+  margin-top: 0;
+}
+
+.scroll-anim {
+  opacity: 0;
+  top: 20px;
+  transition: top, opacity, 0.5s ease;
+}
+
+.scroll-anim-done {
+  opacity: 1;
+  top: 0;
+}
+
+h3 {
+  color: crimson;
+  margin-bottom: 0.25em;
+}
